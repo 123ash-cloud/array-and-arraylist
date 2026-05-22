@@ -1,0 +1,50 @@
+class DifferenceArrayArraylist {
+   // This example of an array
+   public static void main(String[] args) {
+
+
+       double[] values = new double[10]; // the array has its set length.
+       double[] moreValues = {12, 32, 53, 13, 44, 22, 30};
+       values[2] = 0;
+
+
+       System.out.println("values[2] = " + values[2]);
+       System.out.println("Length of values: " + values.length);
+       for (double num : moreValues) {
+           System.out.print(num + " ");
+       }
+   }
+}
+
+
+
+
+
+
+
+
+import java.util.ArrayList;
+
+
+
+
+class DifferenceArrayArraylist {
+   // This example of an ArrayList
+   public static void main(String[] args) {
+       ArrayList<Integer> values = new ArrayList<>();
+       ArrayList<Double> moreValues = new ArrayList<>();
+
+
+// this arraylist can increase or decrease
+       values.add(32);
+       values.add(15);
+       values.add(20);
+       values.add(53);
+
+
+
+
+       System.out.println(values);
+   }
+}
+
